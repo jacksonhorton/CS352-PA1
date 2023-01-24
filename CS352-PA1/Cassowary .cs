@@ -1,4 +1,13 @@
-﻿using System;
+﻿/*
+ * Cassowary.cs
+ * Jackson Horton
+ * 1/23/2023
+ * 
+ * The Cassowary class represents an object which is also an animal.
+ * It inherits all the methods and variables from the animal class.
+ * 
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

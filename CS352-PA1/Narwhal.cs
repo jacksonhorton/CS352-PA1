@@ -1,11 +1,11 @@
 ﻿/*
- * Cat.cs
+ * Narwhal.cs
  * Jackson Horton
  * 1/19/2023
  * 
- * The Cat class is an extension of the Animal class.
+ * The Narwhal class is an extension of the Animal class.
  * Inherits the Animal class and overrides its functions.
- * A cat is an animal, so it inherits the Animal class.
+ * The Narwhal is an animal, so it inherits the animal class.
  * 
  */
 using System;
@@ -16,9 +16,9 @@ using System.Threading.Tasks;
 
 namespace CS352_PA1
 {
-    public class Cat : Animal
+    public class Narwhal : Animal
     {
-        public Cat(string name, int age, float weight) : base(name, age, "meow", weight)
+        public Narwhal(string name, int age, float weight) : base(name, age, "eeeeeeeeeeeeeee", weight)
         {
 
         }
