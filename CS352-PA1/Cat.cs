@@ -18,13 +18,13 @@ namespace CS352_PA1
 {
     public class Cat : Animal
     {
-        public Cat(string name, int age, float weight) : base(name, age, "meow", weight)
+        public Cat(string name, int age, float weight, string noise="meow") : base(name, age, noise, weight)
         {
             // just calls base constructor with noise="meow"
         }
 
 
-        // Overriden functions; most just call base functions
+        // Override functions; most just call base functions
 
         /*
          * override printInfo()

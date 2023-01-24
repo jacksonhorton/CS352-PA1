@@ -18,14 +18,39 @@ namespace CS352_PA1
 {
     public class Narwhal : Animal
     {
-        public Narwhal(string name, int age, float weight) : base(name, age, "eeeeeeeeeeeeeee", weight)
+        public Narwhal(string name, int age, float weight, string noise="eeeeeeeooowww") : base(name, age, noise, weight)
         {
 
         }
 
+        // Override functions; most just call base functions
+
+        /*
+         * override printInfo()
+         * prints Narwhal's info
+         */
         public override void printInfo()
         {
+            Console.WriteLine("*SPLASH*");
             base.printInfo();
+        }
+
+        /*
+         * override makeNoise()
+         * makes the Narwhal's noise
+         */
+        public override void makeNoise()
+        {
+            base.makeNoise();
+        }
+
+        /*
+         * override ageUp()
+         * increases the Narwhal's age
+         */
+        public override void ageUp()
+        {
+            base.ageUp();
         }
     }
 }

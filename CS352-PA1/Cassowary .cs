@@ -17,9 +17,38 @@ namespace CS352_PA1
 {
     public class Cassowary : Animal
     {
-        public Cassowary(string name, int age, float weight) : base(name, age, "bakawk", weight)
+        public Cassowary(string name, int age, float weight, string noise= "bakawk") : base(name, age, noise, weight)
         {
 
+        }
+
+        // Override functions; most just call base functions
+
+        /*
+         * override printInfo()
+         * prints Cassowary's info
+         */
+        public override void printInfo()
+        {
+            base.printInfo();
+        }
+
+        /*
+         * override makeNoise()
+         * makes the Cassowary's noise
+         */
+        public override void makeNoise()
+        {
+            base.makeNoise();
+        }
+
+        /*
+         * override ageUp()
+         * increases the Cassowary's age
+         */
+        public override void ageUp()
+        {
+            base.ageUp();
         }
     }
 }

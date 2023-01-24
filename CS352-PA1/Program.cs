@@ -30,7 +30,7 @@ namespace CS352_PA1
             animals.Add(new Cat("Tom", 7, 19));
             animals.Add(new Cassowary("Lenny", 3, 4.5f));
             animals.Add(new Cat("Jambo", 4, 12.5f));
-            animals.Add(new Cat("Bean Juice", 1, 2));
+            animals.Add(new Cat("Bean Juice", 1, 2, "MEEEEEOWWWWW"));
             animals.Add(new Cat("Fish Stick", 14, 5.7f));
 
             foreach (Animal animal in animals)
