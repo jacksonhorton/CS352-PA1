@@ -33,11 +33,6 @@ namespace CS352_PA1
         }
 
         /*
-         * Getters for private member variables
-         */
-        //public string Name { get => name; }
-
-        /*
          * makeNoise()
          * Prints the noise of the animal to the console.
          */
