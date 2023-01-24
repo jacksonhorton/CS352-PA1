@@ -5,8 +5,8 @@
  * 1/23/2023
  * 
  * Exploring abstrat classes and inheritance of classes.
- * This file acts as the main function and shows the functionality
- * of the classes.
+ * This file acts as the main driver for the classes and
+ * shows the functionalituy of the classes.
  * 
  * Has a list of animals to test the classes and their inheritance.
  * 
@@ -29,7 +29,6 @@ namespace CS352_PA1
             animals.Add(new Narwhal("Big Dave", 35, 20467));
             animals.Add(new Cat("Tom", 7, 19));
             animals.Add(new Cassowary("Lenny", 3, 4.5f));
-            animals.Add(new Cat("Jambo", 4, 12.5f));
             animals.Add(new Cat("Bean Juice", 1, 2, "MEEEEEOWWWWW"));
             animals.Add(new Cat("Fish Stick", 14, 5.7f));
 
@@ -38,8 +37,14 @@ namespace CS352_PA1
                 animal.printInfo();
             }
 
-            animals[1].ageUp();
-            animals[1].printInfo();
+
+            // Testing different functions
+            Cat Jam = new Cat("Jambo", 4, 12.5f);
+            Jam.printInfo();
+            Jam.ageUp();
+            Jam.printInfo();
+            Console.WriteLine("Bye Jambo!");
+            Jam.makeNoise();
         }
     }
 }
