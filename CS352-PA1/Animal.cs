@@ -33,12 +33,17 @@ namespace CS352_PA1
         }
 
         /*
+         * Getters for private member variables
+         */
+        //public string Name { get => name; }
+
+        /*
          * makeNoise()
          * Prints the noise of the animal to the console.
          */
-        public void makeNoise()
+        public virtual void makeNoise()
         {
-            Console.WriteLine("*" + noise.ToUpper() + " " + noise.ToUpper() + "*");
+            Console.WriteLine("*" + noise.ToUpper() + " " + noise.ToUpper() + "*\n");
         }
         /*
          * printInfo()
@@ -53,8 +58,9 @@ namespace CS352_PA1
          * ageUp()
          * Increments the age of the animal
          */
-        public void ageUp()
+        public virtual void ageUp()
         {
+            Console.WriteLine("Happy birthday, " + name + "!");
             age++;
         }
     }

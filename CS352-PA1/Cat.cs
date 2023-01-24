@@ -20,12 +20,38 @@ namespace CS352_PA1
     {
         public Cat(string name, int age, float weight) : base(name, age, "meow", weight)
         {
-
+            // just calls base constructor with noise="meow"
         }
 
+
+        // Overriden functions; most just call base functions
+
+        /*
+         * override printInfo()
+         * prints Cat's info
+         */
         public override void printInfo()
         {
             base.printInfo();
         }
+
+        /*
+         * override makeNoise()
+         * makes the cat's noise
+         */
+        public override void makeNoise()
+        {
+            base.makeNoise();
+        }
+
+        /*
+         * override ageUp()
+         * increases the cat's age
+         */
+        public override void ageUp()
+        {
+            base.ageUp();
+        }
+
     }
 }
