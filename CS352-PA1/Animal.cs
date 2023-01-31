@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 
 namespace CS352_PA1
 {
-    public class Animal
+    public abstract class Animal
     {
         // private member variables
         private string name;
